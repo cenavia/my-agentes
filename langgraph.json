@@ -1,0 +1,10 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "agent": "./src/agents/main.py:agent"
+    },
+    "env": ".env",
+    "http": {
+        "cors_allowed_origins": ["*"]
+    }
+}
