@@ -33,3 +33,13 @@ uv pip install -e .
 ```bash
 uv run langgraph dev
 ```
+
+## Creacionde RAG con file tools de openAI
+1. https://platform.openai.com/storage
+2. Vector stores
+3. + Create
+4. Vector store = My Docs y click en el check
+5. add files
+6. Upload, selecciono el archivo y clic en abrir
+7. Attach
+8. copiamos el ID y lo introducimos en nuestro codigo.
