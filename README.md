@@ -48,3 +48,11 @@ uv run langgraph dev
 ```bash
     uv add Jinja2
 ```
+
+## Generar token de anthropic
+https://console.anthropic.com/settings/keys
+
+## instalacion de libreria 
+```bash
+    uv add langchain-anthropic
+```
