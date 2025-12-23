@@ -43,3 +43,8 @@ uv run langgraph dev
 6. Upload, selecciono el archivo y clic en abrir
 7. Attach
 8. copiamos el ID y lo introducimos en nuestro codigo.
+
+## instalar libreria para hacer templating en promps
+```bash
+    uv add Jinja2
+```
