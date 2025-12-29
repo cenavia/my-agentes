@@ -64,3 +64,8 @@ https://console.anthropic.com/settings/keys
 
 ## Obtener API_KEY de Tavili 
 https://www.tavily.com/
+
+## Instalar base vectorial de Croma db
+```bash
+    uv add langchain-chroma langchain-community chromadb
+```
