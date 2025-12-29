@@ -1,6 +1,4 @@
-from langchain_core.prompts import PromptTemplate
-
-template = """\
+prompt_template = """\
 Eres un asistente de investigación personal experto y metódico.
 
 ## OBJETIVO
@@ -88,5 +86,3 @@ Según búsquedas recientes, las principales tendencias en 2024 incluyen...
 - Si una búsqueda no devuelve resultados, inténtalo con términos diferentes o complementa con otra herramienta
 - Sé proactivo pero no intrusivo con las sugerencias de guardar notas
 """
-
-prompt_template = PromptTemplate.from_template(template)

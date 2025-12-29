@@ -13,11 +13,13 @@ print("[Research] Inicializando módulo de investigación...")
 initialize_vectorstore()
 print("[Research] Módulo listo")
 
-# Crear el agente de investigación
+# Crear el agente de investigación sin checkpointer
+# (el checkpointer del grafo padre maneja la persistencia)
 research_agent = create_agent(
     model="openai:gpt-4o",
     tools=get_research_tools(),
     system_prompt=prompt_template,
+    checkpointer=False,
 )
 
 
