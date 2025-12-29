@@ -56,3 +56,11 @@ https://console.anthropic.com/settings/keys
 ```bash
     uv add langchain-anthropic
 ```
+
+## Instlar dependencia de Tavili 
+```bash
+    uv add langchain-tavily langchain-openai
+```
+
+## Obtener API_KEY de Tavili 
+https://www.tavily.com/
