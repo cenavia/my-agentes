@@ -3,7 +3,8 @@
     "graphs": {
         "agents": "./src/agents/main.py:agent",
         "support": "./src/agents/support/agent.py:agent",
-        "booking": "./src/agents/support/nodes/booking/node.py:booking_node"
+        "booking": "./src/agents/support/nodes/booking/node.py:booking_node",
+        "research": "./src/agents/support/nodes/research/node.py:research_node"
     },
     "env": ".env",
     "http": {
